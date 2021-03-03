@@ -66,6 +66,6 @@ def emojify():
         return 'Error while replacing', 400
 
 
-@app.route('/')
+@app.route('/', methods=['GET'])
 def home():
     return 'Using: /emojify/?url=<url>', 200

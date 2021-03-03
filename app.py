@@ -2,10 +2,10 @@ import itertools
 import re
 from typing import Iterator
 
-import requests
-from bs4 import BeautifulSoup
+import requests                   # Convenient work with http requests
+from bs4 import BeautifulSoup     # Widely used html parsing lib
 from bs4.element import Comment, PageElement
-from flask import Flask, request
+from flask import Flask, request  # Lighweight framework, easy deploy for SPA
 
 app = Flask(__name__)
 

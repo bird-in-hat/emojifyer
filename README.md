@@ -5,7 +5,7 @@
 ```bash
 python3 -m venv env
 /env/bin/activate
-pip install -r reqirements.pip
+pip install -r requirements.pip
 ```
 
 # Using

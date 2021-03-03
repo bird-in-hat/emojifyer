@@ -29,7 +29,7 @@ def emoji_generator() -> Iterator[str]:
         yield emoji
 
 
-@app.route('/emojify/')
+@app.route('/emojify/', methods=['GET'])
 def emojify():
     url = request.args.get('url', None)
     if not url:
